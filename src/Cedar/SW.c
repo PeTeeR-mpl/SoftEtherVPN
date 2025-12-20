@@ -665,9 +665,7 @@ UINT SWExec()
 	// If set memcheck = true, the program will be vitally slow since it will log all malloc() / realloc() / free() calls to find the cause of memory leak.
 	// For normal debug we set memcheck = false.
 	// Please set memcheck = true if you want to test the cause of memory leaks.
-//	InitMayaqua(false, true, 0, NULL);
-	InitMayaqua(true, true, 0, NULL);
-
+	InitMayaqua(false, true, 0, NULL);
 #else
 	InitMayaqua(false, false, 0, NULL);
 #endif
