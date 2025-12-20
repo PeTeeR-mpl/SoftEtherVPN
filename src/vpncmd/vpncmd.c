@@ -35,7 +35,8 @@ int main(int argc, char *argv[])
 	// If set memcheck = true, the program will be vitally slow since it will log all malloc() / realloc() / free() calls to find the cause of memory leak.
 	// For normal debug we set memcheck = false.
 	// Please set memcheck = true if you want to test the cause of memory leaks.
-	InitMayaqua(false, true, argc, argv);
+//	InitMayaqua(false, true, argc, argv);
+	InitMayaqua(true, true, argc, argv);
 #else
 	InitMayaqua(false, false, argc, argv);
 #endif

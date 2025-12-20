@@ -426,6 +426,7 @@ typedef struct CONSOLE CONSOLE;
 typedef struct LOCAL_CONSOLE_PARAM LOCAL_CONSOLE_PARAM;
 typedef struct CMD CMD;
 typedef struct CMD_EVAL_MIN_MAX CMD_EVAL_MIN_MAX;
+typedef struct PARAMW PARAMW;
 
 
 // ==============================================================
