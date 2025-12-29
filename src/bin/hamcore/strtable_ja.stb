@@ -6182,7 +6182,7 @@ CMD_DhcpDisable_Args	DhcpDisable
 
 
 # DhcpSet コマンド
-$CMD_DhcpSet				SecureNAT 機能の仮想 DHCP サーバー機能の設定の変更
+# CMD_DhcpSet				SecureNAT 機能の仮想 DHCP サーバー機能の設定の変更
 CMD_DhcpSet				Change Virtual DHCP Server Function Setting of SecureNAT Function. Press <Enter> to keep a current value; type '' to clear it. 
 CMD_DhcpSet_Help		現在管理している仮想 HUB 内の、仮想 DHCP サーバーの設定を変更します。仮想 DHCP サーバーの設定には、配布 IP アドレス帯、サブネットマスク、リース期限、およびクライアントに割り当てるオプション値が含まれます。\nこのコマンドは、クラスタとして動作している VPN Server の仮想 HUB では実行できません。
 #CMD_DhcpSet_Args		DhcpSet [/START:start_ip] [/END:end_ip] [/MASK:subnetmask] [/EXPIRE:sec] [/GW:gwip] [/DNS:dns] [/DNS2:dns2] [/DOMAIN:domain] [/LOG:yes|no] [/PUSHROUTE:"routing_table"]
