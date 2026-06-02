@@ -17287,7 +17287,7 @@ UINT PsUserGet(CONSOLE *c, char *cmd_name, wchar_t *str, void *param)
 		}
 		else
 		{
-			UniStrCpy(tmp, sizeof(tmp), "");
+			UniStrCpy(tmp, sizeof(tmp), L"");
 		}
 		CtInsert(ct, _UU("CMD_UserGet_Column_IPv4"), tmp);
 
